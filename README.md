@@ -1,3 +1,3 @@
 # Практика "Ремонт квартир"
 Сайт для компании "Ремонт квартир"
-<a href="https://auletov.github.io/repair/">Главная</a>
+[Ремонт квартир](https://auletov.github.io/repair/ "Макет для практики")
