@@ -6,6 +6,7 @@
     <title>Ремонт квартир</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -79,7 +80,10 @@
               </ul>
             </div>
             <!-- /.hero-text -->
-            <div class="hero-image">
+            <div
+              class="hero-image wow animate__animated animate__bounceInRight"
+              data-wow-delay="0.1s"
+            >
               <img src="img/hero/hero_image.png" alt="План квартиры" />
             </div>
             <!-- /.hero-image -->
@@ -145,7 +149,7 @@
             домах
           </h2>
           <div class="slider portfolio__slider">
-            <div class="slider__item">
+            <div class="slider__item wow animate__animated animate__zoomIn">
               <img
                 class="slider__image"
                 src="img/portfolio/slider-1.jpg"
@@ -153,7 +157,7 @@
               />
             </div>
             <!-- /.slider__item -->
-            <div class="slider__item">
+            <div class="slider__item wow animate__animated animate__zoomIn">
               <img
                 class="slider__image"
                 src="img/portfolio/slider-2.jpg"
@@ -161,7 +165,7 @@
               />
             </div>
             <!-- /.slider__item -->
-            <div class="slider__item">
+            <div class="slider__item wow animate__animated animate__zoomIn">
               <img
                 class="slider__image"
                 src="img/portfolio/slider-3.jpg"
@@ -169,7 +173,7 @@
               />
             </div>
             <!-- /.slider__item -->
-            <div class="slider__item">
+            <div class="slider__item wow animate__animated animate__zoomIn">
               <img
                 class="slider__image"
                 src="img/portfolio/slider-1.jpg"
@@ -177,7 +181,7 @@
               />
             </div>
             <!-- /.slider__item -->
-            <div class="slider__item">
+            <div class="slider__item wow animate__animated animate__zoomIn">
               <img
                 class="slider__image"
                 src="img/portfolio/slider-2.jpg"
@@ -185,7 +189,7 @@
               />
             </div>
             <!-- /.slider__item -->
-            <div class="slider__item">
+            <div class="slider__item wow animate__animated animate__zoomIn">
               <img
                 class="slider__image"
                 src="img/portfolio/slider-3.jpg"
@@ -221,7 +225,9 @@
           >
           <!-- /.section-subtitle price__subtitle -->
           <div class="cards">
-            <div class="card price__card">
+            <div
+              class="card price__card wow animate__animated animate__fadeInUp"
+            >
               <div class="card__image">
                 <img
                   src="img/price/bathroom.png"
@@ -239,7 +245,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
+            <div
+              class="card price__card wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.1s"
+            >
               <div class="card__image">
                 <img
                   src="img/price/living.png"
@@ -257,7 +266,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
+            <div
+              class="card price__card wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.2s"
+            >
               <div class="card__image">
                 <img
                   src="img/price/office.png"
@@ -275,7 +287,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
+            <div
+              class="card price__card wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.3s"
+            >
               <div class="card__image">
                 <img
                   src="img/price/buildings.png"
@@ -293,7 +308,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
+            <div
+              class="card price__card wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.4s"
+            >
               <div class="card__image">
                 <img
                   src="img/price/kitchen.png"
@@ -311,7 +329,10 @@
               <!-- /.card__text -->
             </div>
             <!-- /.card -->
-            <div class="card price__card">
+            <div
+              class="card price__card wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.5s"
+            >
               <div class="card__image">
                 <img
                   src="img/price/houses.png"
@@ -352,7 +373,11 @@
     ></script>
     <script src="js/modal.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script>
+      // Инициализация WOW.js
+      new WOW().init();
+      // Скрипт слайдера
       $(document).ready(function () {
         $(".slider").slick({
           slidesToShow: 3,
