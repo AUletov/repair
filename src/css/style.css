@@ -61,6 +61,10 @@ img {
   font-size: 16px;
   border-radius: 10px; }
 
+.bold-text {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700; }
+
 .arrows__left:hover, .arrows__right:hover {
   cursor: pointer; }
 
@@ -682,6 +686,91 @@ img {
     padding-left: 0; }
   .interview-list__text {
     max-width: 230px; } }
+
+.footer {
+  position: relative; }
+
+.map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%; }
+
+.contacts {
+  padding-top: 100px;
+  padding-left: 200px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
+  .contacts__title {
+    width: 290px;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 100px;
+    font-family: 'Museo Sans Bold', sans-serif;
+    font-weight: 700; }
+  .contacts-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .contacts-list {
+    padding: 0;
+    list-style: none; }
+    .contacts-list__icon {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      margin-top: 7px;
+      margin-right: 23px; }
+    .contacts-list__item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      margin-bottom: 39px; }
+    .contacts-list__text {
+      width: 145px;
+      font-size: 16px;
+      line-height: 26px; }
+    .contacts-list__phone {
+      color: #333333;
+      text-decoration: none;
+      font-family: 'Museo Sans Bold', sans-serif;
+      font-weight: 700; }
+
+@media (max-width: 768px) {
+  .map {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%; }
+  .contacts {
+    padding-top: 45px;
+    padding-left: 0;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto; }
+    .contacts__title {
+      text-align: center;
+      width: auto;
+      margin-bottom: 40px; }
+    .contacts-list__text {
+      width: auto; } }
+
+@media (max-width: 480px) {
+  .contacts__title {
+    text-align: left;
+    width: 290px; }
+  .contacts-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .contacts-list__text {
+    width: 145px; } }
 
 .modal {
   position: fixed;
