@@ -838,7 +838,7 @@ img {
 
 .portfolio {
   background: #f5f5f5 url(../img/portfolio/portfolio-pattern.jpg) repeat-y center left;
-  background-size: 50%; }
+  background-size: 51%; }
   .portfolio__title {
     margin: auto;
     margin-bottom: 100px; }
